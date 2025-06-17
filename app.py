@@ -12,32 +12,32 @@ else:
 # 2. Ver si aprobó
 nota = int(input("Ingresá tu nota: "))
 if nota >= 6:
-    print("Aprobado 😎")
+    print("Aprobado ")
 else:
-    print("Desaprobado 😥")
+    print("Desaprobado ")
 
 # 3. Verificar si el número es par
 numero = int(input("Ingresá un número: "))
 if numero % 2 == 0:
-    print("Ha ingresado un número par ✌️")
+    print("Ha ingresado un número par ")
 else:
     print("Por favor, ingrese un número par")
 
 # 4. Clasificación por edad
 edad = int(input("Ingresá tu edad: "))
 if edad < 12:
-    print("Sos un niño/a 👶")
+    print("Sos un niño/a ")
 elif edad < 18:
-    print("Sos adolescente 🧒")
+    print("Sos adolescente ")
 elif edad < 30:
-    print("Sos un adulto/a joven 🧑")
+    print("Sos un adulto/a joven ")
 else:
-    print("Sos un adulto/a 👨‍🦳")
+    print("Sos un adulto/a ")
 
 # 5. Verificar longitud de contraseña
 contraseña = input("Ingresá tu contraseña: ")
 if 8 <= len(contraseña) <= 14:
-    print("Contraseña correcta 🔐")
+    print("Contraseña correcta ")
 else:
     print("La contraseña debe tener entre 8 y 14 caracteres")
 
@@ -57,11 +57,11 @@ print("Mediana:", mediana)
 print("Moda:", moda)
 
 if media > mediana > moda:
-    print("Sesgo positivo ➕")
+    print("Sesgo positivo ")
 elif media < mediana < moda:
-    print("Sesgo negativo ➖")
+    print("Sesgo negativo ")
 else:
-    print("Sin sesgo 😐")
+    print("Sin sesgo ")
 
 # 7. Agregar "!" si termina en vocal
 frase = input("Ingresá una frase o palabra: ")
@@ -121,6 +121,6 @@ else:
     estacion_sur = "Primavera"
 
 if hemisferio == "N":
-    print(f"Estás en {estacion_norte} 🌍")
+    print(f"Estás en {estacion_norte} ")
 else:
-    print(f"Estás en {estacion_sur} 🌎")
+    print(f"Estás en {estacion_sur} ")
