@@ -1,4 +1,4 @@
-ste programa contiene una serie de ejercicios enfocados en el uso de estructuras condicionales en Python. Cada sección resuelve una tarea diferente utilizando la instrucción if, elif y else.
+este programa contiene una serie de ejercicios enfocados en el uso de estructuras condicionales en Python. Cada sección resuelve una tarea diferente utilizando la instrucción if, elif y else.
 
 Contenido
 Mayor de edad: Evalúa si la persona es mayor o menor de 18 años.
